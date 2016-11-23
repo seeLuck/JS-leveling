@@ -20,4 +20,4 @@ var isValid = function(s) {
     return !arr.length
 };
 
-console.log(isValid('[]'))
+console.log(isValid(']'))
