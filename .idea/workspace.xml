@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efbe2557-7fdc-452c-bbf7-32b98395795b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24. Swap Nodes in Pairs/24. Swap Nodes in Pairs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/26. Remove Duplicates from Sorted Array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/27. Remove Element/27. Remove Element.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20. Valid Parentheses/20. Valid Parentheses.js" afterPath="$PROJECT_DIR$/20. Valid Parentheses/20. Valid Parentheses.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.js" afterPath="$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.js" />
     </list>
     <ignored path="JS-leveling.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="24. Swap Nodes in Pairs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/24. Swap Nodes in Pairs/24. Swap Nodes in Pairs.js">
+      <file leaf-file-name="26. Remove Duplicates from Sorted Array.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/26. Remove Duplicates from Sorted Array.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="92">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -38,12 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="21. Merge Two Sorted Lists.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.js">
+      <file leaf-file-name="27. Remove Element.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/27. Remove Element/27. Remove Element.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="897">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +77,8 @@
         <option value="$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.js" />
         <option value="$PROJECT_DIR$/24. Swap Nodes in Pairs/hanuo.js" />
         <option value="$PROJECT_DIR$/24. Swap Nodes in Pairs/24. Swap Nodes in Pairs.js" />
+        <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/26. Remove Duplicates from Sorted Array.js" />
+        <option value="$PROJECT_DIR$/27. Remove Element/27. Remove Element.js" />
       </list>
     </option>
   </component>
@@ -86,9 +89,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-864" />
-    <option name="width" value="1600" />
-    <option name="height" value="877" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="719" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -132,8 +135,18 @@
               <option name="myItemId" value="JS-leveling" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="24. Swap Nodes in Pairs" />
+              <option name="myItemId" value="JS-leveling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS-leveling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="26. Remove Duplicates from Sorted Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -147,59 +160,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="21. Merge Two Sorted Lists" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS-leveling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS-leveling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="20. Valid Parentheses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS-leveling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS-leveling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="19. Remove Nth Node From End of List" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS-leveling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS-leveling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="14. Longest Common Prefix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS-leveling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS-leveling" />
+              <option name="myItemId" value="7. Reverse Integer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,13 +178,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/CLK/project/lab/JS-leveling/14. Longest Common Prefix/14. Longest Common Prefix.js" />
   </component>
-  <component name="RunManager" selected="Node.js.hanuo.js">
-    <configuration default="false" name="13. Roman to Integer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="13. Roman to Integer.js" working-dir="$PROJECT_DIR$/13. Roman to Integer">
-      <method />
-    </configuration>
-    <configuration default="false" name="14. Longest Common Prefix.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="14. Longest Common Prefix.js" working-dir="$PROJECT_DIR$/14. Longest Common Prefix">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.27. Remove Element.js">
     <configuration default="false" name="19. Remove Nth Node From End of List.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="19. Remove Nth Node From End of List.js" working-dir="$PROJECT_DIR$/19. Remove Nth Node From End of List">
       <method />
     </configuration>
@@ -231,6 +186,12 @@
       <method />
     </configuration>
     <configuration default="false" name="hanuo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="hanuo.js" working-dir="$PROJECT_DIR$/24. Swap Nodes in Pairs">
+      <method />
+    </configuration>
+    <configuration default="false" name="26. Remove Duplicates from Sorted Array.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="26. Remove Duplicates from Sorted Array.js" working-dir="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array">
+      <method />
+    </configuration>
+    <configuration default="false" name="27. Remove Element.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="27. Remove Element.js" working-dir="$PROJECT_DIR$/27. Remove Element">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -287,19 +248,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.13. Roman to Integer.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.14. Longest Common Prefix.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.19. Remove Nth Node From End of List.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.20. Valid Parentheses.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.hanuo.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.19. Remove Nth Node From End of List.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.20. Valid Parentheses.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.hanuo.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.26. Remove Duplicates from Sorted Array.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.27. Remove Element.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.hanuo.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.20. Valid Parentheses.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.19. Remove Nth Node From End of List.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.14. Longest Common Prefix.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.13. Roman to Integer.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.27. Remove Element.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.26. Remove Duplicates from Sorted Array.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.hanuo.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.20. Valid Parentheses.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.19. Remove Nth Node From End of List.js" />
       </list>
     </recent_temporary>
   </component>
@@ -328,22 +289,22 @@
       <workItem from="1479210334892" duration="450000" />
       <workItem from="1479210947461" duration="625000" />
       <workItem from="1479451706746" duration="5934000" />
-      <workItem from="1479885443447" duration="3053000" />
+      <workItem from="1479885443447" duration="9230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88357000" />
+    <option name="totallyTimeSpent" value="94534000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-864" width="1600" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="719" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.130625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19693094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24679486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -380,7 +341,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -534,13 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7. Reverse Integer/7. Reverse Integer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1. Two Sum/1. Two Sum.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -584,21 +538,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/24. Swap Nodes in Pairs/24. Swap Nodes in Pairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="207">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/26. Remove Duplicates from Sorted Array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.js">
+    <entry file="file://$PROJECT_DIR$/7. Reverse Integer/7. Reverse Integer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="-123">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/27. Remove Element.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
